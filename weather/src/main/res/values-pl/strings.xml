@@ -1,0 +1,300 @@
+<resources>
+    <string name="plugin_name">Pogoda jako tapeta</string>
+    <string name="plugin_description">Pokazuje aktualne warunki oraz dzisiejsze maksimum i minimum jako tapetę launchera. Dane: Open-Meteo.</string>
+
+    <string name="projectivy_not_installed">Uwaga: ta wtyczka wymaga Projectivy Launcher, który wygląda na niezainstalowany.</string>
+
+    <string name="settings">Ustawienia</string>
+    <string name="category_location">Lokalizacja</string>
+    <string name="category_location_desc">Dla jakiego miejsca jest pogoda, zapisane miejsca, jednostki</string>
+    <string name="category_appearance">Wygląd</string>
+    <string name="category_appearance_desc">Tło, radar, paczki, styl mapy, kolory</string>
+    <string name="category_weather">Informacje o pogodzie</string>
+    <string name="category_weather_desc">Które panele się wyświetlają: prognoza, alerty, jakość powietrza i inne</string>
+    <string name="category_clock">Zegar</string>
+    <string name="category_clock_desc">Pokaż zegar i jak wygląda</string>
+    <string name="category_screen">Ekran i układ</string>
+    <string name="category_screen_desc">Ochrona przed wypaleniem, dopasowanie do rzędu aplikacji, zachowanie w bezczynności</string>
+    <string name="category_experimental">Eksperymentalne</string>
+    <string name="category_experimental_desc">Niesprawdzone opcje animacji, domyślnie wyłączone</string>
+    <string name="category_demo">Tryb demo</string>
+    <string name="category_demo_desc">Ukryj swoją lokalizację na zrzutach ekranu</string>
+    <string name="category_housekeeping">Obsługa</string>
+    <string name="category_housekeeping_desc">Odświeżanie, aktualizacje i raport diagnostyczny</string>
+
+    <string name="world_watch_header">PRZEGLĄD POGODY NA ŚWIECIE</string>
+    <string name="world_watch_alert_chip">ALERT %1$s</string>
+
+    <string name="aqi_good">Dobra</string>
+    <string name="aqi_moderate">Umiarkowana</string>
+    <string name="aqi_unhealthy_sensitive">Niezdrowa dla grup wrażliwych</string>
+    <string name="aqi_unhealthy">Niezdrowa</string>
+    <string name="aqi_very_unhealthy">Bardzo niezdrowa</string>
+    <string name="aqi_hazardous">Niebezpieczna</string>
+    <string name="aqi_alert_line">Jakość powietrza: %1$s \u00B7 AQI %2$d</string>
+    <string name="pollen_very_high">bardzo wysokie</string>
+    <string name="pollen_high">wysokie</string>
+    <string name="pollen_moderate">umiarkowane</string>
+    <string name="pollen_line">Pylenie \u2014 %1$s: %2$s</string>
+    <string name="pollen_alder">Olcha</string>
+    <string name="pollen_birch">Brzoza</string>
+    <string name="pollen_grass">Trawy</string>
+    <string name="pollen_mugwort">Bylica</string>
+    <string name="pollen_olive">Oliwka</string>
+    <string name="pollen_ragweed">Ambrozja</string>
+
+    <string name="aurora_likely">Zorza polarna prawdopodobna tej nocy \u00B7 Kp %1$s</string>
+    <string name="aurora_possible">Zorza polarna możliwa tej nocy \u00B7 Kp %1$s</string>
+    <string name="aurora_possible_far_north">Zorza polarna możliwa na dalekiej północy \u00B7 Kp %1$s</string>
+    <string name="marine_waves">Fale %1$s, %2$s</string>
+
+    <string name="adv_ice">Możliwe oblodzenie \u2014 uważaj na drogach</string>
+    <string name="adv_hard_freeze">Dziś w nocy silny mróz</string>
+    <string name="adv_frost">Dziś w nocy możliwy przymrozek</string>
+    <string name="adv_uv_very_high">Dziś bardzo wysoki UV \u00B7 indeks %1$d</string>
+    <string name="adv_uv_high">Dziś wysoki UV \u00B7 indeks %1$d</string>
+    <string name="adv_very_windy">Bardzo wietrznie \u00B7 %1$s</string>
+    <string name="adv_windy">Dziś wietrznie</string>
+    <string name="adv_oppressive">Duszno \u2014 pamiętaj o piciu</string>
+    <string name="adv_bitter_cold">Siarczysty mróz \u2014 osłoń odkrytą skórę</string>
+    <string name="adv_dry_until">Sucho mniej więcej do %1$s</string>
+    <string name="adv_drying_day">Dobry dzień na suszenie prania</string>
+    <string name="adv_muggy">Parno</string>
+    <string name="adv_humid">Wilgotno</string>
+
+    <string name="wx_clear">Bezchmurnie</string>
+    <string name="wx_mainly_clear">Przeważnie pogodnie</string>
+    <string name="wx_partly_cloudy">Częściowe zachmurzenie</string>
+    <string name="wx_overcast">Pochmurno</string>
+    <string name="wx_fog">Mgła</string>
+    <string name="wx_drizzle">Mżawka</string>
+    <string name="wx_freezing_drizzle">Marznąca mżawka</string>
+    <string name="wx_rain">Deszcz</string>
+    <string name="wx_freezing_rain">Marznący deszcz</string>
+    <string name="wx_snow">Śnieg</string>
+    <string name="wx_snow_grains">Krupa śnieżna</string>
+    <string name="wx_rain_showers">Przelotne opady deszczu</string>
+    <string name="wx_snow_showers">Przelotne opady śniegu</string>
+    <string name="wx_thunderstorm">Burza</string>
+    <string name="wx_thunderstorm_hail">Burza z gradem</string>
+
+    <string name="setting_latitude_title">Szerokość geograficzna</string>
+    <string name="setting_longitude_title">Długość geograficzna</string>
+    <string name="setting_place_title">Nazwa lokalizacji</string>
+    <string name="setting_add_location_title">Dodaj lokalizację</string>
+    <string name="setting_add_location_desc">Wpisz nazwę miejscowości</string>
+    <string name="locations_searching">Szukanie\u2026</string>
+    <string name="locations_no_match">Brak wyników dla \"%1$s\"</string>
+    <string name="locations_pick_match">Wyniki: %1$d \u2014 otwórz, aby wybrać</string>
+    <string name="locations_added">Dodano: %1$s</string>
+    <string name="locations_duplicate">%1$s jest już zapisane</string>
+    <string name="setting_locations_title">Zapisane lokalizacje</string>
+    <string name="locations_none">Brak \u2014 tylko lokalizacja główna</string>
+    <string name="locations_count">Dodatkowe lokalizacje: %1$d</string>
+    <string name="locations_remove_hint">Wybierz, aby usunąć</string>
+    <string name="locations_removed">Usunięto: %1$s</string>
+    <string name="setting_cycle_title">Przełączaj między lokalizacjami</string>
+    <string name="cycle_off">Wyłączone \u2014 tylko lokalizacja główna</string>
+    <string name="cycle_alternate">Wolno \u2014 mniej więcej co pół godziny</string>
+    <string name="cycle_every">Przy każdym odświeżeniu \u2014 mniej więcej co 15 minut</string>
+
+    <string name="setting_units_title">Używaj jednostek metrycznych</string>
+    <string name="setting_burn_in_title">Ogranicz wypalenie ekranu</string>
+    <string name="setting_burn_in_desc">Co jakiś czas przesuwa panel i zegar o kilka pikseli. Domyślnie włączone \u2014 pomaga na ekranach OLED i plazmowych, na innych jest niezauważalne.</string>
+
+    <string name="setting_nowcast_title">Czas rozpoczęcia opadów</string>
+    <string name="setting_nowcast_desc">Pokazuje „zacznie padać za 25 min”, gdy opady są blisko</string>
+
+    <string name="setting_advisories_title">Przydatne wskazówki</string>
+    <string name="setting_advisories_desc">Linie typu „w nocy możliwy przymrozek”, „sucho do 16:00” lub „dobry dzień na suszenie prania”</string>
+    <string name="setting_yesterday_title">Porównaj z wczoraj</string>
+    <string name="setting_yesterday_desc">Dodaje informację, o ile dziś jest cieplej lub chłodniej</string>
+    <string name="setting_air_title">Jakość powietrza i pyłki</string>
+    <string name="setting_air_desc">Dodaje AQI do linii statystyk i ostrzeżenie przy złej jakości powietrza. Pyłki tam, gdzie dostępne.</string>
+    <string name="setting_marine_title">Warunki morskie</string>
+    <string name="setting_marine_desc">Wysokość i okres fal, gdy w pobliżu jest wystarczająco duży zbiornik wody \u2014 ocean lub duże jezioro</string>
+    <string name="setting_last_updated_title">Pokaż czas ostatniej aktualizacji</string>
+    <string name="setting_last_updated_desc">Mała linia „Zaktualizowano G:MM” pokazująca, kiedy obraz na ekranie faktycznie został wyrenderowany, w czasie lokalnym danego miejsca</string>
+    <string name="setting_aurora_title">Wypatrywanie zorzy</string>
+    <string name="setting_aurora_desc">Linia, gdy indeks K sprawia, że zorza jest możliwa na Twojej szerokości geograficznej</string>
+    <string name="setting_safe_radar_title">Radar przyjazny daltonistom</string>
+    <string name="setting_safe_radar_desc">Zmienia kolory radaru, aby silny deszcz był odróżnialny od słabego</string>
+
+    <string name="setting_alerts_title">Alerty o groźnej pogodzie</string>
+    <string name="setting_alerts_desc">Baner aktywnych ostrzeżeń NWS (tylko USA)</string>
+    <string name="setting_experimental_title">Funkcje eksperymentalne</string>
+    <string name="setting_experimental_desc">Odsłania opcje animacji. Kodują one krótki film, co może uniemożliwić uruchomienie wygaszacza ekranu, gdy są aktywne \u2014 potwierdzone na co najmniej jednym urządzeniu. W razie błędu wszystko wraca do nieruchomej tapety.</string>
+
+    <string name="setting_precip_title">Animuj deszcz i śnieg</string>
+    <string name="setting_precip_desc">Spadający deszcz lub śnieg na tle, gdy jest mokro. Koduje krótki film \u2014 może uniemożliwić start wygaszacza, gdy jest wyświetlany.</string>
+    <string name="setting_animate_title">Animuj radar</string>
+    <string name="setting_animate_desc">Zapętla ostatnie dwie godziny opadów. Koduje krótki film, więc budowa trwa kilka sekund \u2014 może uniemożliwić start wygaszacza, gdy jest wyświetlany.</string>
+    <string name="toast_animate_needs_radar">Aby to zobaczyć, ustaw tło na Radar na żywo</string>
+
+    <string name="setting_hourly_title">Pokaż prognozę godzinową</string>
+    <string name="setting_hourly_desc">Najbliższe 6 godzin z temperaturą i szansą na deszcz</string>
+    <string name="setting_daily_title">Pokaż prognozę dzienną</string>
+    <string name="setting_daily_desc">Najbliższe 5 dni z maksimum i minimum</string>
+    <string name="setting_stats_title">Pokaż dodatkowe statystyki</string>
+    <string name="setting_stats_desc">Wilgotność, UV, punkt rosy, widoczność, ciśnienie</string>
+    <string name="setting_sun_title">Pokaż czasy słońca</string>
+    <string name="setting_sun_desc">Wschód, zachód i pozostały czas dnia</string>
+
+    <string name="setting_world_title">Przegląd pogody na świecie</string>
+    <string name="world_off">Wyłączone \u2014 tylko pogoda lokalna</string>
+    <string name="world_occasional">Okazjonalnie \u2014 mniej więcej co godzinę</string>
+    <string name="world_frequent">Często \u2014 mniej więcej co pół godziny</string>
+
+    <string name="setting_theme_title">Motyw dzień / noc</string>
+    <string name="theme_auto">Automatycznie \u2014 według wschodu i zachodu słońca</string>
+    <string name="theme_day">Zawsze jasny</string>
+    <string name="theme_night">Zawsze ciemny</string>
+
+    <string name="setting_labels_title">Nazwy miejsc na radarze</string>
+    <string name="labels_off">Brak</string>
+    <string name="labels_few">Mało \u2014 tylko duże miasta</string>
+    <string name="labels_balanced">Zrównoważone</string>
+    <string name="labels_many">Dużo \u2014 także mniejsze miejscowości</string>
+
+    <string name="setting_basemap_title">Własny adres kafelków mapy</string>
+    <string name="basemap_unset">Wbudowana mapa (linie brzegowe i granice)</string>
+    <string name="setting_basemap_attr_title">Informacja o źródle mapy</string>
+    <string name="basemap_attr_unset">Nie ustawiono</string>
+    <string name="toast_osm_not_permitted">Zasady kafelków OpenStreetMap nie zezwalają na użycie w aplikacjach \u2014 żądania będą blokowane</string>
+
+    <string name="setting_clock_title">Pokaż zegar</string>
+    <string name="setting_clock_desc">Rysuje godzinę na tapecie. Odrysowuje się co minutę, aby był dokładny, co może przeszkadzać w uruchomieniu wygaszacza.</string>
+    <string name="setting_clock_position_title">Położenie zegara</string>
+    <string name="clock_pos_top_right">Prawy górny róg</string>
+    <string name="clock_pos_top_centre">Góra, środek</string>
+    <string name="clock_pos_with_panel">Nad nazwą lokalizacji</string>
+
+    <string name="setting_clock_size_title">Rozmiar zegara</string>
+    <string name="clock_size_small">Mały</string>
+    <string name="clock_size_medium">Średni</string>
+    <string name="clock_size_large">Duży \u2014 najlepiej widoczny z drugiego końca pokoju</string>
+
+    <string name="setting_clock_style_title">Styl zegara</string>
+    <string name="clock_style_light">Cyfrowy, cienki</string>
+    <string name="clock_style_bold">Cyfrowy, pogrubiony</string>
+    <string name="clock_style_analogue">Analogowy \u2014 najlepiej z rozmiarem Duży</string>
+
+    <string name="setting_clock_hours_title">Format godziny</string>
+    <string name="clock_hours_system">Według systemu</string>
+    <string name="clock_hours_12">12-godzinny</string>
+    <string name="clock_hours_24">24-godzinny</string>
+
+    <string name="setting_clock_date_title">Pokaż datę pod zegarem</string>
+    <string name="setting_clock_date_desc">Dodaje dzień tygodnia i datę</string>
+    <string name="toast_clock_hint">Wyłącz własny zegar Projectivy w Wyglądzie, bo zobaczysz dwa</string>
+
+    <string name="setting_safe_area_title">Gdzie zaczyna się rząd aplikacji</string>
+    <string name="setting_safe_area_desc">%1$d%% w dół ekranu</string>
+    <string name="safe_area_option">%1$d%%</string>
+    <string name="safe_area_hint_tall">Dla wysokich lub podwójnych rzędów aplikacji</string>
+    <string name="safe_area_hint_default">Zgodne z domyślnym układem Projectivy</string>
+    <string name="safe_area_hint_short">Dla zwartego lub ukrytego rzędu aplikacji</string>
+
+    <string name="setting_idle_full_title">Użyj całego ekranu w bezczynności</string>
+    <string name="setting_idle_full_desc">Gdy launcher przechodzi w tryb bezczynności, nic nie zasłania tapety, więc prognoza może zająć cały kadr</string>
+
+    <string name="setting_scale_title">Rozmiar odczytu</string>
+    <string name="setting_scale_desc">%1$d%%</string>
+    <string name="scale_option">%1$d%%</string>
+    <string name="scale_hint_small">Więcej miejsca dla tła</string>
+    <string name="scale_hint_default">Domyślny</string>
+    <string name="scale_hint_large">Może zasłaniać paski prognozy</string>
+
+    <string name="setting_holiday_title">Motywy świąteczne</string>
+    <string name="holiday_off">Wyłączone</string>
+    <string name="holiday_none">Włączone \u2014 brak święta w pobliżu</string>
+    <string name="holiday_active">Włączone \u2014 %1$s</string>
+
+    <string name="setting_demo_title">Tryb demo</string>
+    <string name="setting_demo_desc">Ukryj swoją lokalizację na zrzutach ekranu i pokazach</string>
+    <string name="setting_demo_label_title">Etykieta demo</string>
+    <string name="default_demo_label">Pogoda</string>
+    <string name="toast_demo_radar_warning">Radar nadal pokazuje Twoją okolicę \u2014 sama mapa ją zdradza</string>
+
+    <string name="setting_report_title">Utwórz raport diagnostyczny</string>
+    <string name="setting_report_desc">Zapisuje zanonimizowany plik diagnostyczny, który możesz dołączyć do zgłoszenia</string>
+    <string name="setting_support_title">Wesprzyj ten projekt</string>
+    <string name="setting_support_desc">Kod QR i link, jeśli chcesz podziękować</string>
+    <string name="support_screen_desc">Zeskanuj telefonem lub wejdź na %1$s</string>
+    <string name="done">Gotowe</string>
+    <string name="report_working">Zbieranie\u2026</string>
+    <string name="report_failed">Nie udało się zapisać raportu</string>
+    <string name="report_written">Zapisano w Android/data/\u2026/files/%1$s/weather-plugin-report.txt</string>
+    <string name="report_share_title">Udostępnij raport diagnostyczny</string>
+    <string name="report_no_share_target">Brak aplikacji do udostępniania \u2014 skopiuj plik przez adb</string>
+
+    <string name="setting_update_interval_title">Szukaj aktualizacji</string>
+    <string name="update_interval_never">Nigdy \u2014 tylko na życzenie</string>
+    <string name="update_interval_weekly">Co tydzień</string>
+    <string name="update_interval_fortnightly">Co dwa tygodnie</string>
+    <string name="update_interval_monthly">Co miesiąc</string>
+    <string name="setting_update_pending">Dostępna jest wersja v%1$s</string>
+
+    <string name="setting_update_title">Sprawdź aktualizacje</string>
+    <string name="setting_update_desc">Zainstalowana: v%1$s</string>
+    <string name="update_checking">Sprawdzanie GitHuba\u2026</string>
+    <string name="update_check_failed">Nie udało się połączyć z GitHubem</string>
+    <string name="update_up_to_date">v%1$s to najnowsze wydanie</string>
+    <string name="update_downloading">Pobieranie v%1$s\u2026</string>
+    <string name="update_download_failed">Pobieranie nie powiodło się</string>
+    <string name="update_ready">v%1$s gotowe \u2014 potwierdź instalację</string>
+    <string name="update_install_failed">Nie udało się rozpocząć instalacji \u2014 spróbuj zainstalować ręcznie</string>
+    <string name="update_needs_permission">Wymagane uprawnienie do instalowania aplikacji</string>
+    <string name="update_grant_then_retry">Zezwól tej aplikacji na instalowanie nieznanych aplikacji, a potem ponownie wybierz Sprawdź aktualizacje</string>
+    <string name="update_grant_manually">Przyznaj tej wtyczce „instalowanie nieznanych aplikacji” w ustawieniach zabezpieczeń telewizora, a potem spróbuj ponownie</string>
+
+    <string name="setting_refresh_title">Odśwież teraz</string>
+    <string name="setting_refresh_desc">Pobierz aktualne warunki i narysuj ponownie</string>
+
+    <string name="units_metric">Celsjusz, km/h</string>
+    <string name="units_imperial">Fahrenheit, mph</string>
+    <string name="default_place_label">Pogoda lokalna</string>
+
+    <string name="toast_refresh_requested">Zażądano odświeżenia</string>
+    <string name="toast_bad_latitude">Szerokość geograficzna musi mieścić się w zakresie od -90 do 90</string>
+    <string name="toast_bad_longitude">Długość geograficzna musi mieścić się w zakresie od -180 do 180</string>
+
+    <string name="setting_background_title">Tło</string>
+    <string name="background_scene">Ilustrowana scena pogodowa (offline)</string>
+    <string name="background_gradient">Jednolity gradient kolorów (offline)</string>
+    <string name="background_local">Twoje zdjęcia na tym urządzeniu</string>
+    <string name="background_stock">Zdjęcia stockowe (Unsplash)</string>
+    <string name="background_radar">Radar opadów na żywo</string>
+    <string name="background_pack">Paczka tapet społeczności</string>
+    <string name="background_satellite">Satelita</string>
+    <string name="toast_satellite_unavailable">Brak zasięgu satelitarnego w tym miejscu \u2014 wracam do tła domyślnego. Zasięg obejmuje Amerykę, Atlantyk i Pacyfik; jest luka od Bliskiego Wschodu przez Chiny po Azję Południowo-Wschodnią, gdzie nie ma darmowego źródła.</string>
+
+    <string name="setting_pack_title">Paczka tapet</string>
+    <string name="setting_pack_refresh_title">Odśwież listę paczek</string>
+    <string name="setting_pack_refresh_desc">Sprawdź nowe paczki społeczności</string>
+    <string name="pack_none_selected">Nie wybrano</string>
+    <string name="pack_none_available">Brak paczek \u2014 odśwież listę</string>
+    <string name="pack_unknown">Niedostępna (%1$s)</string>
+    <string name="pack_kind_static">Nieruchome obrazy</string>
+    <string name="pack_kind_lottie">Animowana \u2014 bez odczytu pogody</string>
+    <string name="pack_kind_video">Wideo \u2014 bez odczytu pogody</string>
+
+    <string name="toast_pick_a_pack">Wybierz paczkę tapet poniżej</string>
+    <string name="toast_pack_refreshing">Sprawdzanie paczek\u2026</string>
+    <string name="toast_pack_refreshed">Lista paczek zaktualizowana</string>
+    <string name="toast_pack_refresh_failed">Nie udało się połączyć z listą paczek</string>
+    <string name="toast_video_no_overlay">Animowane paczki nie mogą pokazywać odczytu pogody</string>
+
+    <string name="setting_unsplash_title">Klucz dostępu Unsplash</string>
+    <string name="unsplash_unset">Nie ustawiono \u2014 wymagany dla zdjęć stockowych</string>
+
+    <string name="setting_radar_area_title">Obszar radaru</string>
+    <string name="radar_area_wide">Szeroki \u2014 kilka regionów</string>
+    <string name="radar_area_regional">Regionalny \u2014 sąsiednie regiony</string>
+    <string name="radar_area_state">Region \u2014 Twój region i okolice</string>
+    <string name="radar_area_local">Lokalny \u2014 Twoja aglomeracja</string>
+
+    <string name="toast_local_folder">Umieść obrazy lub filmy w: %1$s</string>
+    <string name="toast_local_video_note">Filmy odtwarzają się bez odczytu pogody</string>
+    <string name="toast_needs_unsplash_key">Dodaj klucz dostępu Unsplash, aby używać zdjęć stockowych</string>
+</resources>
